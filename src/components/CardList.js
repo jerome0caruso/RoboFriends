@@ -7,7 +7,7 @@ const CardList = (props) => {
     //     throw new Error("oh No")
     // }
     return (
-        <div>
+        <div className="container">
             {
                 props.robots.map((user, i) => {
                     return (

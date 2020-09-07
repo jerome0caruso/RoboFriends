@@ -27,7 +27,7 @@ class App extends Component {
     render() {
         //const {robots, searchfield } = this.state;  then get rid of all 'this.state'
         const filteredRobots = this.state.robots.filter(robot => {
-            return robot.name.toLocaleLowerCase().includes(this.state.searchfield.toLocaleLowerCase());
+            return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase());
         })
         if (this.state.robots.length === 0) {
             return <h1 className="tc">Loading</h1>

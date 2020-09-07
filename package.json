@@ -1,6 +1,9 @@
 {
   "name": "robo",
-  "homepage": "https://jerome0caruso.roboFriends/",
+  "homepage": "jerome0caruso.github.io/robofriends/",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {
